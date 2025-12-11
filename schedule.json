@@ -1,0 +1,51 @@
+[
+    {
+        "className": "Fine Art 1",
+        "teacher": "Mr. Snedden",
+        "room": "A107",
+        "period": 1,
+        "subject": "Art"
+    },
+    {
+        "className": "AP Computer Science A",
+        "teacher": "Mrs. Hoagland",
+        "room": "B108",
+        "period": 2,
+        "subject": "Computer Science"
+    },
+    {
+        "className": "Honors NJIT Advanced Website Development",
+        "teacher": "Mrs. Herbert",
+        "room": "B114",
+        "period": 3,
+        "subject": "Computer Science"
+    },
+    {
+        "className": "BCC ENG121 The Writing Process",
+        "teacher": "Mrs. Lomovsky",
+        "room": "E107",
+        "period": 4,
+        "subject": "English"
+    },
+    {
+        "className": "AP Psychology",
+        "teacher": "Mrs. Brusotti",
+        "room": "G108",
+        "period": 5,
+        "subject": "Psychology"
+    },
+    {
+        "className": "Physical Ed 12",
+        "teacher": "Mr. Withstandley",
+        "room": "GYM",
+        "period": 6,
+        "subject": "Physical Education"
+    },
+    {
+        "className": "Video Editing & Meda Prod 2",
+        "teacher": "Mr. Jennings",
+        "room": "B106",
+        "period": 7,
+        "subject": "Computer Science"
+    }
+]

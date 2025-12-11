@@ -1,0 +1,96 @@
+/* --- Page Basics --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff, #d9e2ff);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* --- Dropdown --- */
+select {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #34495e;
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+select:hover {
+    background-color: #d6e0ff;
+    border-color: #2c3e50;
+}
+
+/* --- Schedule Table --- */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    margin-top: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+td {
+    background-color: #f9f9f9;
+    transition: background 0.3s;
+    padding: 10px 10px;
+}
+
+/* --- Hover Effects --- */
+tbody tr:hover td {
+    background-color: #d0e1ff;
+}
+
+/* --- Zebra Striping --- */
+tbody tr:nth-child(even) td {
+    background-color: #eef3ff;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9rem;
+    }
+    select {
+        width: 100%;
+    }
+}
+
+/* --- Optional Highlight Current Period --- */
+.current {
+    background-color: #ffeaa7 !important;
+    font-weight: bold;
+}
